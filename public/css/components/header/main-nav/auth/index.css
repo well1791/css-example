@@ -1,0 +1,22 @@
+.header__main-nav__auth {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2);
+}
+
+@media screen and (min-width: 22.5rem) {
+  .header__main-nav__auth {
+    flex-direction: row;
+  }
+}
+
+.header__main-nav__auth .btn {
+  inline-size: 100%;
+}
+
+@media screen and (min-width: 22.5rem) {
+  .header__main-nav__auth .btn {
+    inline-size: auto;
+    min-inline-size: var(--size-12);
+  }
+}

@@ -1,0 +1,12 @@
+.header__skip-nav {
+  --transition: , transform 250ms ease-in;
+
+  position: absolute;
+  inset-inline-start: var(--size-2);
+  inset-block-start: var(--size-2);
+  transform: translateY(-150%);
+}
+
+.header__skip-nav:focus {
+  transform: translateY(0);
+}

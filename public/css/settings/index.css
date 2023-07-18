@@ -1,0 +1,17 @@
+:root {
+  /* breakpoints */
+  --bp-mobl: 22.5rem; /* 360px */
+  --bp-tabl: 64rem; /* 1024px */
+  --bp-desk: 90rem; /* 1440px */
+  --bp-wide: 160rem; /* 2560px */
+
+  /* colors */
+  --black: #151515;
+  --white: #FFF;
+  --gray-1: #F0F0F0;
+
+  /* vars */
+  --c-main: var(--gray-1);
+  --c-main-l-1: var(--white); /* light accent */
+  --c-main-d-1: var(--black); /* dark accent */
+}

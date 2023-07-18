@@ -1,0 +1,26 @@
+@media screen and (min-width: 22.5rem) {
+  .header__mobile-menu-toggle {
+    display: none;
+  }
+}
+
+.header__mobile-menu-toggle .fa-xmark {
+  display: none;
+}
+
+.header__mobile-menu-toggle[aria-expanded=true] {
+  position: absolute;
+  z-index: 9999;
+  inset-block-start: var(--size-4);
+  inset-inline-end: var(--size-4);
+
+  background-color: transparent;
+}
+
+.header__mobile-menu-toggle[aria-expanded=true] .fa-bars {
+  display: none;
+}
+
+.header__mobile-menu-toggle[aria-expanded=true] .fa-xmark {
+  display: block;
+}
